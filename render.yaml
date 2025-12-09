@@ -3,8 +3,7 @@ services:
     name: inventory-backend
     runtime: python
     pythonVersion: 3.11
-    rootDir: inventory-backend
-    buildCommand: "cd inventory-backend && pip install -r requirements.txt"
+    buildCommand: "pip install -r inventory-backend/requirements.txt"
     startCommand: "cd inventory-backend && uvicorn main:app --host 0.0.0.0 --port $PORT"
     envVars:
       - key: PYTHON_VERSION
