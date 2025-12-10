@@ -1,8 +1,8 @@
 import React from "react";
-import InventoryHealthPage from "./InventoryHealthPage";
+import InventoryHealthPageEnhanced from "./InventoryHealthPageEnhanced";
 
 function App() {
-  return <InventoryHealthPage />;
+  return <InventoryHealthPageEnhanced />;
 }
 
 export default App;
